@@ -2244,3 +2244,7 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.purecounter.plus-sign::after {
+  content: "+";
+}
