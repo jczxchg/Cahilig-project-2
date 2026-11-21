@@ -244,7 +244,7 @@ h6 {
   margin: 0;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: #D4AF37;
 }
 
 .header .btn-getstarted,
@@ -1327,7 +1327,7 @@ section,
 }
 
 .testimonials .testimonial-item {
-  background-color: var(--surface-color);
+  background-color: var(--accent-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   box-sizing: content-box;
   padding: 30px 30px 30px 60px;
@@ -1348,10 +1348,11 @@ section,
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
+  color: color-mix(in srgb, var(--background-color), transparent 50%);
 }
 
 .testimonials .testimonial-item h4 {
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: color-mix(in srgb, var(--background-color), transparent 50%);
   font-size: 14px;
   margin: 0;
 }
@@ -1389,6 +1390,7 @@ section,
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
+  color: color-mix(in srgb, var(--background-color), transparent 50%);
 }
 
 .testimonials .swiper-wrapper {
