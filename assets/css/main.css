@@ -1352,11 +1352,11 @@ section,
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: color-mix(in srgb, var(--background-color), transparent 50%);
+  color: color-mix(in srgb, var(--background-color), transparent 10%);
 }
 
 .testimonials .testimonial-item h4 {
-  color: color-mix(in srgb, var(--background-color), transparent 50%);
+  color: color-mix(in srgb, var(--background-color), transparent 10%);
   font-size: 14px;
   margin: 0;
 }
@@ -1394,7 +1394,7 @@ section,
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
-  color: color-mix(in srgb, var(--background-color), transparent 50%);
+  color: color-mix(in srgb, var(--background-color), transparent 10%);
 }
 
 .testimonials .swiper-wrapper {
